@@ -1,0 +1,30 @@
+.boxes-block__row{
+    display: flex;
+    justify-content: center;
+}
+.boxes-block__box{
+    width: 75px;
+    height: 75px;
+    background: #4e4c4d;
+    margin: 5px;
+    font-size: 45px;
+    color:#ffffff;
+}
+.boxes-block__box:hover{
+    background: #342f31;
+    cursor: pointer;
+}
+.animation {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
